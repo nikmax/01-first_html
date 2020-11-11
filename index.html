@@ -7,6 +7,9 @@
         height: 200px;
 	      object-fit: cover;
       }
+      body {
+        margin: 0px;
+      }
       .bg1 {
         padding: 8px;
         background-color:#ddebe0;
@@ -17,11 +20,20 @@
       }
       .menu {
         position: absolute;
-        top: 8px;
-        left: 8px;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        padding: 8px;
+        background-color: rgba(0,0,0,0.5);
       }
       .menu a {
         color: white;
+        font-size: 20px;
+        text-decoration: none;
+      }
+      .menu a:hover {
+        color: grey;
+        text-decoration: underline;
       }
     </style>
   </head>
